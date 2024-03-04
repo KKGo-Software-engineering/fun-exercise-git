@@ -185,15 +185,15 @@ Don't worry if you are not familiar with Go. You can still complete this challen
 - Checkout to the `main` branch
 - Go to challenge3 directory `cd challenge-3-feature-toggle` directory
 - `go run main.go` or `make go-run` and verify the result. You should see Sending via SMS.
-- ⚠️ Unable to run the code?
-  - Install Go by following the [Prerequisites](#prerequisites) section
-  - `go version` to verify that Go is installed
 
 ```bash
 Email notification feature toggle is DISABLED
 Sending SMS to 0812345678: Hello, Go!
 ```
 
+- ⚠️ Unable to run the code?
+	- Install Go by following the [Prerequisites](#prerequisites) section
+	- `go version` to verify that Go is installed
 - Enable the Email feature by changing `isEmailEnabled` inside the `main` function to be `true`
 - Verify the result make sure the email notification is sent to the email address that you specified by using `make go-run` then see the result.
 - Commit the changes on the `main` branch
