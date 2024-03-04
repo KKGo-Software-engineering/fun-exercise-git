@@ -11,6 +11,8 @@
 
 - [Challenge 5: Undo Changes](#challenge-5-undo-changes-)
 
+- [Challenge 6: Cleanup Branch](#challenge-6-cleanup-branch-)
+
 # Prerequisites
 
 - [Git](https://git-scm.com/downloads)
@@ -37,7 +39,7 @@ git clone <your-forked-repository-url>
 
 ## Challenges
 
-## Challenge 1: Merge Practice by using git commit and git merge
+## Challenge 1: Three-Way Merge Practice by using git commit and git merge
 
 ### Guide:
 
@@ -106,7 +108,7 @@ git push origin main
 
 </details>
 
-## Challenge 2: Merge Practice by using Pull Request
+## Challenge 2: Three-Way Merge Practice by using Pull Request
 
 ### Guide:
 
@@ -285,3 +287,21 @@ git revert <commit-hash>
 
 </details>
 
+## Challenge 6: Cleanup Branch 🧹
+
+### Guide:
+
+- Delete `maithai-feature` and `monkan-feature` branch
+- Push the changes to the remote repository
+
+<details>
+<summary>Hint Challenge 6 (try it your self first before open this hint)</summary>
+
+```bash
+git branch -d maithai-feature
+git push origin --delete maithai-feature
+
+git branch -d monkan-feature
+git push origin --delete monkan-feature
+```
+</details>
