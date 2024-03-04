@@ -9,6 +9,8 @@
 
 - [Challenge 4: Tag version](#challenge-4-tag-version)
 
+- [Challenge 5: Undo Changes](#challenge-5-undo-changes-)
+
 # Prerequisites
 
 - [Git](https://git-scm.com/downloads)
