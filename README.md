@@ -23,6 +23,8 @@
 
 - Click on the `Fork` button on the top right corner of this page [fork the repository to your own GitHub account](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository)
 
+<img src="./fork.png"  alt="fork">
+
 ## Step 2: Clone the forked repository to your local machine
 
 - Clone the forked repository to your local machine
@@ -105,6 +107,8 @@ git push origin main
 - Create a new branch from the `main` branch e.g. `monkan-feature`
 - Checkout to the new branch
 - Edit the `CONTRIBUTORS.md` file by adding your name to the `Contributors` section
+- `git status` to see status of the changes
+- `git diff` to see the changes
 - Commit the changes
 - Push the changes to the remote repository at the new branch
 - Create a Pull Request from the new branch to your `main` branch (<b>Create PR for your repository</b>)
