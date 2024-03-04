@@ -1,21 +1,13 @@
 # Fun Exercise: Git Collaboration and Feature Toggle Challenge
 
 ## Table of Contents
+- [Challenge 1: Three-Way Merge Practice by using git commit and git merge](#challenge-1-three-way-merge-practice-by-using-git-commit-and-git-merge)
 
-- [Fun Exercise: Git Collaboration and Feature Toggle Challenge](#fun-exercise-git-collaboration-and-feature-toggle-challenge)
-  - [Table of Contents](#table-of-contents)
-- [Prerequisites](#prerequisites)
-- [Instructions](#instructions)
-  - [Step 1: Fork the repository](#step-1-fork-the-repository)
-  - [Step 2: Clone the forked repository to your local machine](#step-2-clone-the-forked-repository-to-your-local-machine)
-  - [Challenge 1: Three-Way Merge Practice by using git commit and git merge](#challenge-1-three-way-merge-practice-by-using-git-commit-and-git-merge)
-    - [Guide:](#guide)
-  - [Challenge 2: Three-Way Merge Practice by using Pull Request](#challenge-2-three-way-merge-practice-by-using-pull-request)
-    - [Guide:](#guide-1)
-  - [Challenge 3: Feature Toggle](#challenge-3-feature-toggle)
-    - [Guide:](#guide-2)
-  - [Challenge 4: Tag version](#challenge-4-tag-version)
-    - [Guide:](#guide-3)
+- [Challenge 2: Three-Way Merge Practice by using Pull Request](#challenge-2-three-way-merge-practice-by-using-pull-request)
+
+- [Challenge 3: Feature Toggle](#challenge-3-feature-toggle)
+
+- [Challenge 4: Tag version](#challenge-4-tag-version)
 
 # Prerequisites
 
@@ -46,6 +38,8 @@ git clone <your-forked-repository-url>
 - Create a new branch from the `main` branch e.g. `maithai-feature`
 - Checkout to the new branch
 - Edit the `CONTRIBUTORS.md` file by adding your name to the `Contributors` section
+- `git status` to see status of the changes
+- `git diff` to see the changes
 - Commit the changes
 - Checkout to the `main` branch
 - Merge the new branch to the `main` branch
