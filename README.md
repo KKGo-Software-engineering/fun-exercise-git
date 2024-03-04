@@ -121,7 +121,7 @@ git push origin main
 - `git diff --staged` to see the changes in the staging area
 - Commit the changes
 - Push the changes to the remote repository at the new branch
-- Create a Pull Request from the new branch to your `main` branch (<b>Create PR for your repository</b>)
+- Create a Pull Request from the new branch to your `main` branch (⚠️ <b>Create PR for your repository</b>)
 - Merge the Pull Request
 - Pull the changes from the remote repository at the `main` branch
 - Verify by using `git log --graph --oneline`. You should see the commit history like below:
@@ -178,12 +178,16 @@ git pull origin main
 </details>
 
 ## Challenge 3: Feature Toggle
+Don't worry if you are not familiar with Go. You can still complete this challenge by following the guide below.
 
 ### Guide:
 
 - Checkout to the `main` branch
 - Go to challenge3 directory `cd challenge-3-feature-toggle` directory
-- `make go-run` or `go run main.go`  and verify the result. You should see Sending via SMS.
+- `go run main.go` or `make go-run` and verify the result. You should see Sending via SMS.
+- ⚠️ Unable to run the code?
+  - Install Go by following the [Prerequisites](#prerequisites) section
+  - `go version` to verify that Go is installed
 
 ```bash
 Email notification feature toggle is DISABLED
