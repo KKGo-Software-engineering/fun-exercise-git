@@ -264,3 +264,22 @@ git push origin --tags
 ```
 
 </details>
+
+## Challenge 5: Undo Changes ⏰
+
+### Guide:
+
+- Checkout to the `main` branch
+- Show the commit history
+- Pick the commit hash that you want to revert
+- Revert the commit (Preserve the history)
+
+<details>
+<summary>Hint Challenge 5 (try it your self first before open this hint)</summary>
+
+```bash
+git revert <commit-hash>
+```
+
+</details>
+
