@@ -33,7 +33,9 @@
 git clone <your-forked-repository-url>
 ```
 
-## Challenge 1: Three-Way Merge Practice by using git commit and git merge
+## Challenges
+
+## Challenge 1: Merge Practice by using git commit and git merge
 
 ### Guide:
 
@@ -42,6 +44,8 @@ git clone <your-forked-repository-url>
 - Edit the `CONTRIBUTORS.md` file by adding your name to the `Contributors` section
 - `git status` to see status of the changes
 - `git diff` to see the changes
+- Add the changes to the staging area
+- `git diff --staged` to see the changes in the staging area
 - Commit the changes
 - Checkout to the `main` branch
 - Merge the new branch to the `main` branch
@@ -100,7 +104,7 @@ git push origin main
 
 </details>
 
-## Challenge 2: Three-Way Merge Practice by using Pull Request
+## Challenge 2: Merge Practice by using Pull Request
 
 ### Guide:
 
@@ -109,6 +113,8 @@ git push origin main
 - Edit the `CONTRIBUTORS.md` file by adding your name to the `Contributors` section
 - `git status` to see status of the changes
 - `git diff` to see the changes
+- Add the changes to the staging area
+- `git diff --staged` to see the changes in the staging area
 - Commit the changes
 - Push the changes to the remote repository at the new branch
 - Create a Pull Request from the new branch to your `main` branch (<b>Create PR for your repository</b>)
