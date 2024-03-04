@@ -113,7 +113,7 @@ git push origin main
 - Edit the `CONTRIBUTORS.md` file by adding your name to the `Contributors` section
 - Commit the changes
 - Push the changes to the remote repository at the new branch
-- Create a Pull Request from the new branch to the `main` branch
+- Create a Pull Request from the new branch to your `main` branch
 - Merge the Pull Request
 - Pull the changes from the remote repository at the `main` branch
 - Verify by using `git log --graph --oneline`. You should see the commit history like below:
