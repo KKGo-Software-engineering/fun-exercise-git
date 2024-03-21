@@ -1,3 +1,3 @@
 # Contributors
 
-- [Rafael](sommani@github.com)
+- [Haha](sommani@github.com)
