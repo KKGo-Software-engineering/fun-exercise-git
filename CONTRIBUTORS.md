@@ -1,6 +1,4 @@
 # Contributors
 
-- [Rafael3]
+- [Rafael](nomoretoday)
 - [Sommani](sommani@github.com)
-- [Rafael1]
-- [Rafael2]
